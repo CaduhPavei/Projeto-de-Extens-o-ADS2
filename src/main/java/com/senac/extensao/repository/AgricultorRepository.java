@@ -1,10 +1,9 @@
 package com.senac.extensao.repository;
 
-import com.senac.extensao.models.Pessoa;
+import com.senac.extensao.models.Agricultor;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface PessoaRepository extends JpaRepository<Pessoa, Long> {
-    public Pessoa findByCpf(String cpf);
+public interface AgricultorRepository extends JpaRepository<Agricultor, Long> {
 }
